@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 import TellurideGroup from "../assets/images/TellurideGroup.jpg";
 import TellurideAlone from "../assets/images/TellurideAlone.jpg";

@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 import Profile2 from "../assets/images/Profile2.jpg";
 import KidComputer from "../assets/images/KidComputer.jpg";
