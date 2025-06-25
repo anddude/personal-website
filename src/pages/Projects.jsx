@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Slider from "../components/Slider";
 
-import BroccoliPong from "../assets/images/Broccoli-pong.png";
+import BroccoliPong from "../assets/images/Broccoli-Pong.png";
 import Personal from "../assets/images/personalWebsite.png";
 
 
