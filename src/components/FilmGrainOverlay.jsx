@@ -2,17 +2,17 @@ import { useState, useEffect} from "react";
 
 export default function FilmGrainOverlay() {
     const frames = [
-        "/filmgrain1.png", 
-        "/filmgrain2.png",
-        "/filmgrain3.png",
-        "/filmgrain4.png",
-        "/filmgrain5.png",
-        "/filmgrain6.png",
-        "/filmgrain7.png",
-        "/filmgrain8.png",
-        "/filmgrain9.png",
-        "/filmgrain10.png",
-        "/filmgrain11.png",
+        "public/images/filmgrain1.png", 
+        "public/images/filmgrain2.png",
+        "public/images/filmgrain3.png",
+        "public/images/filmgrain4.png",
+        "public/images/filmgrain5.png",
+        "public/images/filmgrain6.png",
+        "public/images/filmgrain7.png",
+        "public/images/filmgrain8.png",
+        "public/images/filmgrain9.png",
+        "public/images/filmgrain10.png",
+        "public/images/filmgrain11.png",
     ];
 const [index, setIndex] = useState(0);
 

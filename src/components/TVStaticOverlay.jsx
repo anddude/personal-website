@@ -2,16 +2,16 @@ import { useState, useEffect} from "react";
 
 export default function TVStaticOverlay() {
     const frames = [
-        "/TVStatic1.png", 
-        "/TVStatic2.png",
-        "/TVStatic3.png", 
-        "/TVStatic4.png",
-        "/TVStatic5.png", 
-        "/TVStatic6.png",
-        "/TVStatic7.png", 
-        "/TVStatic8.png",
-        "/TVStatic9.png", 
-        "/TVStatic10.png",
+        "public/images/TVStatic1.png", 
+        "public/images/TVStatic2.png",
+        "public/images/TVStatic3.png", 
+        "public/images/TVStatic4.png",
+        "public/images/TVStatic5.png", 
+        "public/images/TVStatic6.png",
+        "public/images/TVStatic7.png", 
+        "public/images/TVStatic8.png",
+        "public/images/TVStatic9.png", 
+        "public/images/TVStatic10.png",
     ];
 const [index, setIndex] = useState(0);
 

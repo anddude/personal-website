@@ -6,16 +6,16 @@ import Footer from "../components/footer";
 import Slider from "../components/Slider";
 
 //images for slider component
-import bootstrap from "../images/bootstrap.svg";
-import css from "../images/css.svg";
-import html5 from "../images/html5.svg";
-import javascript from "../images/javascript.svg";
-import mysql from "../images/mysql.svg";
-import postgres from "../images/postgresq.svg";
-import react from "../images/react.svg";
-import tailwind from "../images/tailwind.svg";
-import typescript from "../images/typescript.svg";
-import python from "../images/python.svg";
+import bootstrap from "/public/images/bootstrap.svg";
+import css from "/public/images/css.svg";
+import html5 from "/public/images/html5.svg";
+import javascript from "/public/images/javascript.svg";
+import mysql from "/public/images/mysql.svg";
+import postgres from "/public/images/postgresq.svg";
+import react from "/public/images/react.svg";
+import tailwind from "/public/images/tailwind.svg";
+import typescript from "/public/images/typescript.svg";
+import python from "/public/images/python.svg";
 
 
 export default function Projects() {
@@ -53,7 +53,7 @@ export default function Projects() {
         {/* Brocoli card div */}
         <div className="bg-twilight text-glass border rounded-sm shadow-md hover:shadow-smoke p-6 card-hover">
 
-          <img src="src/images/Brocoli-pong.png" alt="Broccoli Pong" className="mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
+          <img src="public/images/Brocoli-pong.png" alt="Broccoli Pong" className="mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
 
           <h2 className="font-space text-center text-neonGreen text-xl font-semibold">Broccoli-Pong</h2>
 
@@ -74,7 +74,7 @@ export default function Projects() {
         {/* Personal Website card div */}
         <div className="bg-twilight text-glass border rounded-sm shadow-md hover:shadow-smoke p-6 card-hover">
 
-          <img src="src/images/Camping.jpg" alt="Personal Website" className="mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
+          <img src="public/images/personalWebsite.png" alt="Personal Website" className="mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
 
           <h2 className="text-center font-space text-neonGreen text-xl font-semibold">Personal Website</h2>
 

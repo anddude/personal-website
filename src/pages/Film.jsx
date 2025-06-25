@@ -27,11 +27,11 @@ export default function Film() {
 
       <div className="font-space grid grid-cols-2 gap-4 mt-16">
         <div className="image-details-effect relative group">
-          <img src="src/images/TellurideGroup.jpg" alt="Telluride Film Festival Group Photo"  className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" title="Annie on set with camera team" />
+          <img src="public/images/TellurideGroup.jpg" alt="Telluride Film Festival Group Photo"  className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" title="Annie on set with camera team" />
           <div className="overlay-text">TFF Production Group Photo 2018</div>
         </div>
         <div className="image-details-effect relative group">
-          <img src="src/images/TellurideAlone.jpg" alt="Telluride Film Festival Alone Photo"   className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" title="Annie on set with camera team" />
+          <img src="public/images/TellurideAlone.jpg" alt="Telluride Film Festival Alone Photo"   className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" title="Annie on set with camera team" />
           <div className="overlay-text">Sitting Amongst Auteurs</div>
         </div>
         </div>
@@ -49,7 +49,7 @@ export default function Film() {
 
         <Link to="/chicle">
         <img 
-        src="src/images/Chicle2.png" 
+        src="public/images//Chicle2.png" 
         alt="Chicle"
         className="
             md:w-96                
@@ -65,7 +65,7 @@ export default function Film() {
 
         <Link to="/therunner">
         <img 
-        src="src/images/Runner2.png" 
+        src="public/images/Runner2.png" 
         alt="The Runner"
         className="
             md:w-96               
@@ -81,7 +81,7 @@ export default function Film() {
 
         <Link to="/calling">
         <img 
-        src="src/images/Calling2.png" 
+        src="public/images/Calling2.png" 
         alt="Calling"
          className="
             md:w-96                
@@ -97,7 +97,7 @@ export default function Film() {
         
         <Link to="/pepito">
         <img 
-        src="src/images/Pepito3.jpg" 
+        src="public/images/Pepito3.jpg" 
         alt="Pepito"
         className="
             md:w-96                
@@ -122,22 +122,22 @@ export default function Film() {
       {/* RAY DONOVAN */}
       <div className="font-space grid grid-cols-2 gap-8 mt-16">
         <div className="image-details-effect relative group">
-          <img src="src/images/RDSet1.png" alt="Annie on set with camera team" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
+          <img src="public/images/RDSet1.png" alt="Annie on set with camera team" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
           <div className="overlay-text">Last Day on the Sound Stage</div>
         </div>
 
         <div className="image-details-effect relative group">
-          <img src="src/images/RDSet2.jpg" alt="Behind the scenes in Yonkers" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
+          <img src="public/images/RDSet2.jpg" alt="Behind the scenes in Yonkers" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
           <div className="overlay-text">Behind the Scenes on Location</div>
         </div>
 
         <div className="image-details-effect relative group">
-          <img src="src/images/RDSet3.jpg" alt="rainy practical effects" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim"  />
+          <img src="public/images/RDSet3.jpg" alt="rainy practical effects" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim"  />
           <div className="overlay-text">Rain Practical Effects Set Up</div>
         </div>
 
         <div className="image-details-effect relative group">
-          <img src="src/images/RDSet4.png" alt="NYC Waterfront Shoot" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
+          <img src="public/images/RDSet4.png" alt="NYC Waterfront Shoot" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
           <div className="overlay-text">NYC Waterfront Shoot</div>
         </div>
         </div>

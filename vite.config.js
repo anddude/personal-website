@@ -1,15 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite'; 
+import tailwindcss from '@tailwindcss/vite'; // ✅
 
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss()],
-    base: process.env.VITE_BASE_PATH || "/react-vite-deploy",
-
-
-  server: {
-    port: 2121,
-  }
+    tailwindcss(), // ✅ makes Tailwind v4 just work
+  ],
 });

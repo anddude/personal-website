@@ -24,7 +24,7 @@ export default function Home() {
       <div>
         <div className="image-details-effect relative group">
           <img 
-          src="src/images/LongPic.jpg" 
+          src="public/images/LongPic.jpg" 
           alt="New York City's winter" 
           className="p-px w-auto h-80 mx-auto mb-6 object-cover rounded-sm shadow-md image-to-dim"
           />
