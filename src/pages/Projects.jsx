@@ -1,20 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 import Slider from "../components/Slider";
 
-//images for slider component
-import bootstrap from "/public/images/bootstrap.svg";
-import css from "/public/images/css.svg";
-import html5 from "/public/images/html5.svg";
-import javascript from "/public/images/javascript.svg";
-import mysql from "/public/images/mysql.svg";
-import postgres from "/public/images/postgresq.svg";
-import react from "/public/images/react.svg";
-import tailwind from "/public/images/tailwind.svg";
-import typescript from "/public/images/typescript.svg";
-import python from "/public/images/python.svg";
+import BroccoliPong from "../assets/images/Broccoli-pong.png";
+import Personal from "../assets/images/personalWebsite.png";
+
+
+import bootstrap from "../assets/images/bootstrap.svg";
+import css from "../assets/images/css.svg";
+import html5 from "../assets/images/html5.svg";
+import javascript from "../assets/images/javascript.svg";
+import mysql from "../assets/images/mysql.svg";
+import postgres from "../assets/images/postgresq.svg";
+import react from "../assets/images/react.svg";
+import tailwind from "../assets/images/tailwind.svg";
+import typescript from "../assets/images/typescript.svg";
+import python from "../assets/images/python.svg";
 
 
 export default function Projects() {
@@ -52,13 +55,12 @@ export default function Projects() {
         {/* Brocoli card div */}
         <div className="bg-twilight text-glass border rounded-sm shadow-md hover:shadow-smoke p-6 card-hover">
 
-          <img src="public/images/Brocoli-pong.png" alt="Broccoli Pong" className="mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
+          <img src={BroccoliPong} alt="Broccoli Pong" className="mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
 
           <h2 className="font-space text-center text-neonGreen text-xl font-semibold">Broccoli-Pong</h2>
 
           <p className="font-space text-center text-xs md:text-sm mt-1 md:mt-2">
-            A pong-style browser game built with vanilla JavaScript, featuring interactive DOM manipulation,
-            basic collision detection, and a playful UX.
+            A pong-style browser game built with vanilla JavaScript. Features interactive DOM manipulation, basic collision detection, and a playful UX. Designed to strengthen logic flow, game loop structure, and responsive design fundamentals.
           </p>
 
           <div className="font-space grid grid-cols-2 gap-4 place-content-center text-sunset mt-6 text-center">
@@ -73,19 +75,19 @@ export default function Projects() {
         {/* Personal Website card div */}
         <div className="bg-twilight text-glass border rounded-sm shadow-md hover:shadow-smoke p-6 card-hover">
 
-          <img src="public/images/personalWebsite.png" alt="Personal Website" className="mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
+          <img src={Personal} alt="Personal Website" className="mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
 
           <h2 className="text-center font-space text-neonGreen text-xl font-semibold">Personal Website</h2>
 
           <p className=" text-center font-space text-sm">
-            I utilized React, Tailwind and Vite to build this website to showcase my work.
+            A portfolio site built with React, Tailwind, Vite, and PostCSS, deployed via Vercel. Created to showcase projects with a focus on responsive layout, custom animations, and modular design.
           </p>
 
           <div className="font-space grid grid-cols-2 gap-4 place-content-center text-sunset mt-6 text-center">
             <button className="bg-neonGreen/80 rounded-sm border-2 border-smoke hover hover:bg-neonGreen hover:border-glass card-hover">
               <a href="https://annietadvick.com" className="text-center text-twilight font-space">Live Site</a></button>
             <button className="bg-neonGreen/80 rounded-sm border-2 border-smoke hover hover:bg-neonGreen hover:border-glass card-hover">
-            <a href="#" className="text-center text-twilight font-space">GitHub</a></button>
+            <a href="https://github.com/anddude/personal-website" className="text-center text-twilight font-space">GitHub</a></button>
           </div>
 
         </div>

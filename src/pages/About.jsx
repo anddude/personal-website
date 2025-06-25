@@ -1,5 +1,9 @@
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
+
+import Profile2 from "../assets/images/Profile2.jpg";
+import KidComputer from "../assets/images/KidComputer.jpg";
+import Hiking from "../assets/images/Hiking.jpg";
 
 
 
@@ -21,7 +25,7 @@ export default function About() {
 
               <div className="order-1 p-1 md:p-5">
                 <div className="image-details-effect relative group ">
-                  <img src="public/images/Profile2.jpg" alt="Profile" className="mx-auto w-80 h-64 object-cover rounded-sm shadow-md image-to-dim"/>
+                  <img src={Profile2} alt="Profile" className="mx-auto w-80 h-64 object-cover rounded-sm shadow-md image-to-dim"/>
                     <div className="overlay-text font-space text-base lg:text-xl">Candid Photo by &nbsp;<a href="https://www.brianroedel.com/" className="no-underline effect-underline">Brian Roedel</a>
                     </div>
                 </div> 
@@ -40,14 +44,14 @@ export default function About() {
 
               <div className="order-3 md:order-4">
                 <div className=" image-details-effect relative group">
-                  <img src="public/images/KidComputer.jpg" alt="Young Annie at a computer" className="p-px mx-auto mb-6 w-80 h-64 object-cover rounded-sm shadow-md image-to-dim"/>
+                  <img src={KidComputer} alt="Young Annie at a computer" className="p-px mx-auto mb-6 w-80 h-64 object-cover rounded-sm shadow-md image-to-dim"/>
                   <div className="overlay-text font-space">Young Annie at a Computer</div>
                 </div>
               </div>
 
               <div className="order-5">
                 <div className="image-details-effect relative group">
-                <img src="public/images/Hiking.jpg" alt="Hiking" className="p-px  mx-auto mb-6 w-80 h-64 object-cover rounded-sm shadow-md image-to-dim"/>
+                <img src={Hiking} alt="Hiking" className="p-px  mx-auto mb-6 w-80 h-64 object-cover rounded-sm shadow-md image-to-dim"/>
                 <div className="overlay-text font-space">Here's to looking at you, view!</div>
                 </div>
               </div>

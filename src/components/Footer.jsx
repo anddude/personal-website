@@ -1,4 +1,4 @@
-import React from "react";
+import WG from "../assets/images/woodgrain.png";
 
 function Footer() {
   return (
@@ -11,7 +11,7 @@ function Footer() {
 
         {/* Social Links */}
         <div className="relative flex justify-center space-x-4 text-sm">
-          <div className=" absolute top-1/2 left-0 w-full h-2 -translate-y-1/2 bg-[url('src/images/woodgrain.png')] bg-cover bg-mocha bg-blend-multiply rounded-lg opacity-50 "></div>
+          <div className=" absolute top-1/2 left-0 w-full h-2 -translate-y-1/2 bg-cover bg-mocha bg-blend-multiply rounded-lg opacity-50 " style={{ backgroundImage: `url(${WG})` }}></div>
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/in/annie-tadvick-92187165/">
             <svg

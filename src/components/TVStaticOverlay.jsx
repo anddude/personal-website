@@ -1,18 +1,16 @@
 import { useState, useEffect} from "react";
 
+import TVS1 from "../assets/images/TVStatic1.png"; 
+import TVS2 from "../assets/images/TVStatic2.png";
+import TVS3 from "../assets/images/TVStatic3.png"; 
+import TVS4 from "../assets/images/TVStatic4.png";
+import TVS5 from "../assets/images/TVStatic5.png"; 
+import TVS6 from "../assets/images/TVStatic6.png";
+import TVS7 from "../assets/images/TVStatic7.png"; 
+
+
 export default function TVStaticOverlay() {
-    const frames = [
-        "public/images/TVStatic1.png", 
-        "public/images/TVStatic2.png",
-        "public/images/TVStatic3.png", 
-        "public/images/TVStatic4.png",
-        "public/images/TVStatic5.png", 
-        "public/images/TVStatic6.png",
-        "public/images/TVStatic7.png", 
-        "public/images/TVStatic8.png",
-        "public/images/TVStatic9.png", 
-        "public/images/TVStatic10.png",
-    ];
+    const frames = [ TVS1, TVS2, TVS3, TVS4, TVS4, TVS5, TVS6, TVS7];
 const [index, setIndex] = useState(0);
 
 useEffect(() => {

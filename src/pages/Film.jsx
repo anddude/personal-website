@@ -1,7 +1,18 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
+
+import TellurideGroup from "../assets/images/TellurideGroup.jpg";
+import TellurideAlone from "../assets/images/TellurideAlone.jpg";
+import Chicle from "../assets/images/Chicle2.png";
+import TheRunner from "../assets/images/Runner2.png";
+import Calling from "../assets/images/Calling2.png";
+import Pepito from "../assets/images/Pepito3.jpg";
+import RD1 from "../assets/images/RDSet1.png";
+import RD2 from "../assets/images/RDSet2.jpg";
+import RD3 from "../assets/images/RDSet3.jpg";
+import RD4 from "../assets/images/RDSet4.png";
 
 export default function Film() {
   return (
@@ -27,11 +38,11 @@ export default function Film() {
 
       <div className="font-space grid grid-cols-2 gap-4 mt-16">
         <div className="image-details-effect relative group">
-          <img src="public/images/TellurideGroup.jpg" alt="Telluride Film Festival Group Photo"  className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" title="Annie on set with camera team" />
+          <img src={TellurideGroup} alt="Telluride Film Festival Group Photo"  className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" title="Annie on set with camera team" />
           <div className="overlay-text">TFF Production Group Photo 2018</div>
         </div>
         <div className="image-details-effect relative group">
-          <img src="public/images/TellurideAlone.jpg" alt="Telluride Film Festival Alone Photo"   className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" title="Annie on set with camera team" />
+          <img src={TellurideAlone} alt="Telluride Film Festival Alone Photo"   className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" title="Annie on set with camera team" />
           <div className="overlay-text">Sitting Amongst Auteurs</div>
         </div>
         </div>
@@ -49,7 +60,7 @@ export default function Film() {
 
         <Link to="/chicle">
         <img 
-        src="public/images//Chicle2.png" 
+        src={Chicle} 
         alt="Chicle"
         className="
             md:w-96                
@@ -65,7 +76,7 @@ export default function Film() {
 
         <Link to="/therunner">
         <img 
-        src="public/images/Runner2.png" 
+        src={TheRunner} 
         alt="The Runner"
         className="
             md:w-96               
@@ -81,7 +92,7 @@ export default function Film() {
 
         <Link to="/calling">
         <img 
-        src="public/images/Calling2.png" 
+        src={Calling} 
         alt="Calling"
          className="
             md:w-96                
@@ -97,7 +108,7 @@ export default function Film() {
         
         <Link to="/pepito">
         <img 
-        src="public/images/Pepito3.jpg" 
+        src={Pepito}
         alt="Pepito"
         className="
             md:w-96                
@@ -122,22 +133,22 @@ export default function Film() {
       {/* RAY DONOVAN */}
       <div className="font-space grid grid-cols-2 gap-8 mt-16">
         <div className="image-details-effect relative group">
-          <img src="public/images/RDSet1.png" alt="Annie on set with camera team" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
+          <img src={RD1} alt="Annie on set with camera team" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
           <div className="overlay-text">Last Day on the Sound Stage</div>
         </div>
 
         <div className="image-details-effect relative group">
-          <img src="public/images/RDSet2.jpg" alt="Behind the scenes in Yonkers" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
+          <img src={RD2} alt="Behind the scenes in Yonkers" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
           <div className="overlay-text">Behind the Scenes on Location</div>
         </div>
 
         <div className="image-details-effect relative group">
-          <img src="public/images/RDSet3.jpg" alt="rainy practical effects" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim"  />
+          <img src={RD3} alt="rainy practical effects" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim"  />
           <div className="overlay-text">Rain Practical Effects Set Up</div>
         </div>
 
         <div className="image-details-effect relative group">
-          <img src="public/images/RDSet4.png" alt="NYC Waterfront Shoot" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
+          <img src={RD4} alt="NYC Waterfront Shoot" className="p-px w-full h-64 object-cover rounded-sm shadow-md image-to-dim" />
           <div className="overlay-text">NYC Waterfront Shoot</div>
         </div>
         </div>

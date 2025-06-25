@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
+import WG from "../assets/images/woodgrain.png";
+import Resume from "../assets/AnnieTadvick_Resume_6.25.pdf"
+
 function Navbar() {
   const location = useLocation();
   const currentPath = location.pathname;
@@ -24,7 +27,7 @@ function Navbar() {
         <div className="relative">
           {/* Woodgrain background in a contained layer */}
           <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
-            <div className="w-[100%] h-[25%] px-[5%] bg-[url('src/images/woodgrain.png')] bg-cover bg-mocha bg-blend-multiply opacity-50 rounded-lg" />
+            <div className="w-[100%] h-[25%] px-[5%] bg-cover bg-mocha bg-blend-multiply opacity-50 rounded-lg" style={{ backgroundImage: `url(${WG})` }}/>
           </div>
           <ul className="relative flex items-center space-x-2 sm:space-x-4 md:space-x-6">
             <li>
@@ -57,7 +60,7 @@ function Navbar() {
             </li>
             <li>
               <a 
-                href="/AnnieTadvick_Resume_4.25.pdf" 
+                href={Resume} 
                 rel="noopener noreferrer"
                 className="font-space font-bold text-glass text-base text-sm md:text-xl lg:text-2xl hover:text-neonGreen/80 hover:text-shadow-sunset hover:text-shadow-xs"
               >

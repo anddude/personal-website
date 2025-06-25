@@ -1,6 +1,8 @@
 import React from "react";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 import Navbar from "../components/Navbar";
+
+import LongPic from "../assets/images/LongPic.jpg";
 
 export default function Home() {
   return (
@@ -24,7 +26,7 @@ export default function Home() {
       <div>
         <div className="image-details-effect relative group">
           <img 
-          src="public/images/LongPic.jpg" 
+          src={LongPic} 
           alt="New York City's winter" 
           className="p-px w-auto h-80 mx-auto mb-6 object-cover rounded-sm shadow-md image-to-dim"
           />
