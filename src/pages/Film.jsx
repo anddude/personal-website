@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 import TellurideGroup from "../assets/images/TellurideGroup.jpg";
 import TellurideAlone from "../assets/images/TellurideAlone.jpg";
-import Chicle from "../assets/images/Chicle2.png";
+import Chicle from "../assets/images/chicle2.png";
 import TheRunner from "../assets/images/Runner2.png";
 import Calling from "../assets/images/Calling2.png";
 import Pepito from "../assets/images/Pepito3.jpg";
