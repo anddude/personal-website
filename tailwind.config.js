@@ -8,6 +8,8 @@ export default {
     extend: {
       fontFamily: {
         thasadith: ['thasadith', 'sans-serif'],
+        space: ['space', 'arial'],
+        thabold: ['tha-bold', 'sans-serif'],
       },
       colors: {
         night: '#0e0e11',
@@ -27,33 +29,12 @@ export default {
         'fade-in-delay-2': 'fade-in 0.7s ease-out 0.4s forwards',
         'fade-in-delay-3': 'fade-in 0.7s ease-out 0.6s forwards',
         'fade-in-delay-4': 'fade-in 0.7s ease-out 0.8s forwards',
-        meteor: 'meteor 5s linear infinite',
-        noise: 'noise 1s steps(10) infinite',
       },
       keyframes: {
-        float: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-10px)' },
-        },
-        'pulse-subtle': {
-          '0%, 100%': { opacity: 1 },
-          '50%': { opacity: 0.6 },
-        },
         'fade-in': {
           '0%': { opacity: 0, transform: 'translateY(10px)' },
           '100%': { opacity: 1, transform: 'translateY(0)' },
         },
-        meteor: {
-          '0%': { transform: 'translate(0, 0)', opacity: 1 },
-          '100%': { transform: 'translate(100px, 100px)', opacity: 0 },
-        },
-        noise: {
-          '0%': { backgroundPosition: '0 0' },
-          '100%': { backgroundPosition: '100% 100%' },
-        },
-      },
-      backgroundImage: {
-        noise: "url('/noise.jpg')",
       },
     },
   },

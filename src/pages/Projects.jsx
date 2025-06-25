@@ -94,7 +94,7 @@ export default function Projects() {
 
       </div>
 
-        <h1 className="mt-16 text-center text-lg md:text-2xl  font-tha-bold my-4">LANGUAGES, FRAMEWORKS, DATABASES & MORE!</h1>
+        <h1 className="mt-16 text-center text-lg md:text-2xl my-4">LANGUAGES, FRAMEWORKS, DATABASES & MORE!</h1>
          <p className="text-sm text-center md:text-lg font-thasadith mt-4 mb-8 ">
           Over the past year, I’ve been diving into a range of technologies, continuously pushing myself to explore new tools, frameworks, and languages with every project. My goal is to expand my skill set through hands-on learning and practical application. While my proficiency varies across the technologies listed below, you can find{" "}
           <i><span className="text-center whitespace-nowrap no-underline effect-underline hover:text-shadow-sm hover:text-shadow-sunset/50 hover:not-italic">

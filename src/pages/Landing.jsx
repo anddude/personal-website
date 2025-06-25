@@ -11,14 +11,11 @@ import WhiteSpot from "../assets/images/whitespot.jpg";
 
 export default function Landing() {
 const navigate = useNavigate();
-const [explode, setExplode] = useState(false);
 
 useEffect(() => {
-  const timer1 = setTimeout(() => setExplode(true), 5500);
   const timer2 = setTimeout(() => navigate("/home"), 6000);
 
   return () => {
-    clearTimeout(timer1);
     clearTimeout(timer2);
   };
 }, []);
@@ -26,9 +23,9 @@ useEffect(() => {
   return (
     <>
       <title>Welcome</title>
-      <main className="flex flex-col items-center justify-center min-h-screen bg-night">
+      <main className="flex flex-col items-center justify-center min-h-screen bg-night animate-fade-in">
         {/* TV wrapper */}
-        <div className="relative w-[30vw] aspect-[4/3] flex items-center justify-center animate-fade-in-delay-4">
+        <div className="relative w-[30vw] aspect-[4/3] flex items-center justify-center">
           {/* TV image */}
           <img
             src={TV}
