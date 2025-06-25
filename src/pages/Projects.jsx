@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar.jsx";
-import Footer from "../components/Footer.jsx";
-import Slider from "../components/Slider.jsx";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Slider from "../components/Slider";
 
 //images for slider component
 import bootstrap from "/public/images/bootstrap.svg";
