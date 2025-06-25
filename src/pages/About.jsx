@@ -1,7 +1,6 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
-import Slider from "../components/Slider";
+import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/footer.jsx";
+
 
 
 export default function About() {

@@ -1,30 +1,28 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import React from "react";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Film from "./pages/Film";
-import NotFound from "./pages/NotFound";
-import TheRunner from "./pages/TheRunner";
-import Chicle from "./pages/Chicle";
-import Calling from "./pages/Calling";
-import Pepito from "./pages/Pepito";
-import Landing from "./pages/Landing";
-import FilmGrainOverlay from "./components/FilmGrainOverlay";
-import TVStaticOverlay from "./components/TVStaticOverlay";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Projects from "./pages/Projects.jsx";
+import Film from "./pages/Film.jsx";
+import NotFound from "./pages/NotFound.jsx";
+import TheRunner from "./pages/TheRunner.jsx";
+import Chicle from "./pages/Chicle.jsx";
+import Calling from "./pages/Calling.jsx";
+import Pepito from "./pages/Pepito.jsx";
+import Landing from "./pages/Landing.jsx";
+import FilmGrainOverlay from "./components/FilmGrainOverlay.jsx";
+import TVStaticOverlay from "./components/TVStaticOverlay.jsx";
 import './index.pcss';
 
 function App() {
   const location = useLocation();
   const path = location.pathname;
 
-  // Known valid paths
   const knownPaths = [
     "/", "/home", "/about", "/projects", "/film",
     "/therunner", "/pepito", "/chicle", "/calling"
   ];
 
-  // Determine which overlay to show
   const overlay = path === "/"
     ? null
     : knownPaths.includes(path)

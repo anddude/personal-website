@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../components/footer";
-import Navbar from "../components/Navbar";
+import Footer from "../components/footer.jsx";
+import Navbar from "../components/Navbar.jsx";
 
 export default function Home() {
   return (

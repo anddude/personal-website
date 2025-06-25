@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/footer.jsx";
 
 export default function NotFound() {
   const navigate = useNavigate();
