@@ -89,22 +89,11 @@
   }
 
   h1{
-    @apply text-2xl md:text-4xl lg:text-6xl font-space my-2 md:my-4 text-burntOrange text-shadow-sm text-shadow-mustard text-center;
+    @apply text-2xl md:text-4xl lg:text-6xl font-space my-1 md:my-4 text-burntOrange text-shadow-sm text-shadow-mustard text-center;
   }
 
   h2{
-    @apply text-lg md:text-2xl lg:text-4xl text-center my-3 md:my-6 font-space text-mustard text-shadow-sm text-shadow-burntOrange md:col-span-2;
-  }
-
-  .fuzzy-overlay {
-    position: fixed;
-    inset: 0;
-    background-image: url("/filmGrain.png");  
-    pointer-events: none;
-    animation: shift .2s infinite;
-    background-size: cover;
-    mix-blend-mode: overlay;
-    opacity: .5;
+    @apply text-lg md:text-2xl lg:text-4xl text-center my-2 md:my-6 font-space text-mustard text-shadow-sm text-shadow-burntOrange md:col-span-2;
   }
 
   @keyframes shift {
@@ -246,11 +235,6 @@
   @media (width >= 1400px) {
     max-width: 1400px;
   }
-}
-
-@utility text-glow{
-  @apply relative;
-  text-shadow: 0 0 10px rgba(167, 139, 250, .5)
 }
 
 @utility card-hover{
