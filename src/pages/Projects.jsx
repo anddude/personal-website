@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Slider from "../components/Slider";
@@ -55,7 +53,7 @@ export default function Projects() {
         {/* Brocoli card div */}
         <div className="bg-twilight text-glass border rounded-sm shadow-md hover:shadow-smoke p-6 card-hover">
 
-          <img src={BroccoliPong} alt="Broccoli Pong" className="mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
+          <img src={BroccoliPong} alt="Broccoli Pong" className="w-full h-45 mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
 
           <h2 className="font-space text-center text-neonGreen text-xl font-semibold">Broccoli-Pong</h2>
 
@@ -75,7 +73,7 @@ export default function Projects() {
         {/* Personal Website card div */}
         <div className="bg-twilight text-glass border rounded-sm shadow-md hover:shadow-smoke p-6 card-hover">
 
-          <img src={Personal} alt="Personal Website" className="mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
+          <img src={Personal} alt="Personal Website" className="w-full h-45 mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
 
           <h2 className="text-center font-space text-neonGreen text-xl font-semibold">Personal Website</h2>
 

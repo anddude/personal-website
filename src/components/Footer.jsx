@@ -1,5 +1,6 @@
 import WG from "../assets/images/woodgrain.png";
 
+
 function Footer() {
   return (
     
@@ -12,25 +13,16 @@ function Footer() {
         {/* Social Links */}
         <div className="relative flex justify-center space-x-4 text-sm">
           <div className=" absolute top-1/2 left-0 w-full h-2 -translate-y-1/2 bg-cover bg-mocha bg-blend-multiply rounded-lg opacity-50 " style={{ backgroundImage: `url(${WG})` }}></div>
-          {/* LinkedIn */}
-          <a href="https://www.linkedin.com/in/annie-tadvick-92187165/">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="lucide lucide-linkedin-icon lucide-linkedin hover:animate-pulse z-10"
+          
+          {/* Calendly */}
+         <a href="https://calendly.com/annietadvick/30min" className="hover:animate-pulse">
+         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar1-icon lucide-calendar-1"><path d="M11 14h1v4"/><path d="M16 2v4"/><path d="M3 10h18"/><path d="M8 2v4"/><rect x="3" y="4" width="18" height="18" rx="2"/></svg>
+          </a> 
 
-            >
-              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-              <rect width="4" height="12" x="2" y="9" />
-              <circle cx="4" cy="4" r="2" />
-            </svg>
+          {/* LinkedIn */}
+         
+          <a href="https://www.linkedin.com/in/annie-tadvick-92187165/" className="hover:animate-pulse">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin-icon lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
           </a>
 
           {/* GitHub */}
@@ -53,22 +45,8 @@ function Footer() {
           </a>
 
           {/* Email */}
-          <a href="mailto:annietadvick@example.com?subject=My%20Let'sConnect&body=My%20Body">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="28"
-              height="28"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="lucide lucide-mail-icon lucide-mail hover:animate-pulse"
-            >
-              <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
-              <rect x="2" y="4" width="20" height="16" rx="2" />
-            </svg>
+          <a href="mailto:annietadvick@gmail.com?subject=My%20Let'sConnect&body=My%20Body" className="hover:animate-pulse">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
           </a>
         </div>
 

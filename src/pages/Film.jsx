@@ -19,11 +19,11 @@ export default function Film() {
     <>
     <Navbar />
     <div className="flex grow text-center container animate-fade-in">
-      <main className="container font-thasadith  p-6 max-w-3xl mx-auto text-sunset">
+      <main className="container font-thasadith p-6 max-w-3xl mx-auto text-sunset">
       <title>Film</title>
         <h1>FILM & TV</h1>
-          <p className="mb-16 mt-8">I spent nearly a decade working in 
-            <a href="https://www.imdb.com/name/nm6860917/?ref_=fn_all_nme_1" className="no-underline effect-underline">Film & TV</a> across a variety of roles. I specialized
+          <p className="mb-16 mt-8">I spent nearly a decade working in &nbsp;
+            <a href="https://www.imdb.com/name/nm6860917/?ref_=fn_all_nme_1" className="text-burntOrange no-underline effect-underline">Film & TV</a>&nbsp; across a variety of roles. I specialized
             in leading creative teams, managing high-pressure logistics, and 
             delivering powerful visual storytelling — skills that now inform my 
             approach to software development.
