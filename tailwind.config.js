@@ -36,6 +36,9 @@ export default {
           '100%': { opacity: 1, transform: 'translateY(0)' },
         },
       },
+      backgroundImage: {
+        noise: "url('/noise.jpg')",
+      },
     },
   },
   plugins: [],

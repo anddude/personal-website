@@ -13,7 +13,7 @@ export default function About() {
     <Navbar />
        <div className="flex grow animate-fade-in ">
 
-    <main className="p-6 max-w-4xl mx-auto text-sunset container">
+    <main className="max-w-4xl mx-auto text-sunset container">
           <title>About</title>
           <h1>ABOUT</h1>
           <div className="grid justify-items-center items-center">
@@ -62,9 +62,9 @@ export default function About() {
 
       
             </div>
-            <div className="justify-center relative group border border-smoke rounded-lg mt-8 hover:scale-102 transition-transform duration-200">
+            <div className="p-5 justify-center relative group border border-smoke rounded-lg mt-8 hover:scale-102 transition-transform duration-200">
                 <h2>THE HUMAN</h2>
-                <p className="font-thasadith text-center pb-5">When I'm not working on a project, you can find me learning to swing dance, going on walks around my with my dog, <br />or reading a wide range of books — among other things!</p>
+                <p className="font-thasadith text-center pb-5">When I'm not working on a project, you can find me learning to <a href="http://www.brooklynswings.com/" className="text-burntOrange no-underline effect-underline">swing dance</a>, going on walks around my neighborhood with my dog, or reading a wide range of books — among other things!</p>
               </div>
     </main>
     </div>

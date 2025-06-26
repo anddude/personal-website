@@ -8,7 +8,7 @@ export default function Pepito() {
     <>
     <Navbar />
     <div className="flex grow items-center justify-center text-burntOrange animate-fade-in">
-    <main className="p-8 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8">
+    <main className="px-5 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8">
       <title>Pepito</title>
      {/* Video Player */}
 

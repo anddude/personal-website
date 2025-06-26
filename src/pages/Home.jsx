@@ -36,14 +36,13 @@ export default function Home() {
       
       <div>
         <h1>
-        HOWDY {cowboy}
+        HOWDY <span className="">{cowboy}</span>
         </h1>
         <p>
           I'm Annie — a filmmaker turned software engineer with a passion for building thoughtful,
           human-centered digital experiences. After years of managing fast-paced productions and solving
           high-stakes problems behind the scenes, I pivoted into tech to bring that same creative energy and
-          attention to detail to the world wide web. Stay a little while to check out my projects. 
-          Thanks for stopping by and don't be a stranger - <a href="https://calendly.com/annietadvick/30min">
+          attention to detail to the world wide web. Thanks for stopping by and don't be a stranger — <a href="https://calendly.com/annietadvick/30min">
           <i><span className="hover:text-shadow-sm hover:text-shadow-sunset/50 hover:not-italic no-underline effect-underline">
           let's grab a cup of coffee and chat!</span></i></a> 
         </p>

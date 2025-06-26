@@ -17,8 +17,8 @@ function Navbar() {
         <div>
           <Link to="/home">
             <div className={`font-space font-bold p-1 md:p-2 lg:p-4 text-lg md:text-4xl lg:text-6xl text-mustard text-shadow-sm text-shadow-burntOrange effect-box ${currentPath === "/home" ? "effect-box-show" : ""}`}>
-  Annie Tadvick
-</div>
+            Annie Tadvick
+        </div>
 
           </Link>
         </div>

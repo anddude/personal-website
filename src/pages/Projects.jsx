@@ -46,7 +46,7 @@ export default function Projects() {
       curiosity and a growth mindset to every project I tackle. Here are a few of my recent projects, with more on the way!</p>
       {/* card divs */}
       
-      <div className="mt-16 justify-center grid md:grid-cols-2 gap-16 p-12">
+      <div className="mt-16 p-4 justify-center grid md:grid-cols-2 gap-16 ">
 
         
 
@@ -107,8 +107,8 @@ export default function Projects() {
         </div>
 
         <div className="mt-16 inline-block px-2 py-1 border-2 border-cobalt rounded-xl text-glass font-space bg-transparent">
-          <p className="text-xl pt-5 pl-5 md:text-3xl italic text-left text-shadow-xs text-shadow-glass">"Simple things should be simple...complex things should be possible."</p> 
-        <h2 className="text-right mt-1 pr-10 text-burntOrange/80 text-shadow-xs text-shadow-neonGreen/80">— Alan Perlis</h2>
+          <p className="text-xl pt-5 pl-5 md:text-3xl italic text-left text-shadow-xs text-shadow-smoke">"Simple things should be simple...complex things should be possible."</p> 
+        <h2 className="text-right mt-1 pr-10 text-thabold text-neonGreen/80 text-shadow-xs text-shadow-cobalt">— Alan Perlis</h2>
         </div>
     </main>
     </div>

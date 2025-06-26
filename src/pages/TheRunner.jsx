@@ -8,10 +8,10 @@ export default function TheRunner() {
     <>
     <Navbar />
     <div className="flex grow items-center justify-center text-burntOrange opacity-90 drop-shadow-sm animate-fade-in">
-      <main className="p-2 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8">
+      <main className="px-5 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8">
         <title>The Runner</title>
 
-      <h2>ASSISTANT DIRECTOR - THE RUNNER (2022)</h2>
+      <h2 className="text-base md:text-2xl">ASSISTANT DIRECTOR - THE RUNNER (2022)</h2>
 
       <div className="flex justify-items-center items-center text-lg text-center font-thasadith">
           <p><em>The Runner</em> &nbsp; is a short film directed by <a href="https://www.ryanmack.com/about" className="text-sunset no-underline effect-underline">

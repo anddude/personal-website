@@ -8,7 +8,7 @@ export default function Calling() {
    <>
     <Navbar />
     <div className="flex grow items-center justify-center text-burntOrange animate-fade-in">
-      <main className="p-2 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8">
+      <main className="mx-auto px-5 max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8">
         <title>Calling</title> 
 
         <h2>

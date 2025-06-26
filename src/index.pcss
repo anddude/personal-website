@@ -19,22 +19,92 @@
 
 
   --animate-fade-in: fade-in 0.7s ease-out forwards;
-  --animate-fade-in-delay-1: fade-in 0.7s ease-out 0.2s forwards;
-  --animate-fade-in-delay-2: fade-in 0.7s ease-out 0.4s forwards;
-  --animate-fade-in-delay-3: fade-in 0.7s ease-out 0.6s forwards;
-  --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
-  
- 
+  --animate-fade-out: fade-out .7s ease-in forwards;
+  --animate-grow: grow 1.75s linear forwards;
+  --animate-growSpin: growSpin 1.5s ease-out forwards;
+  --animate-car: car 2s ease-in forwards;
+  --animate-b1: b1 2s ease-in forwards;
+  --animate-b2: b2 2s ease-in forwards;
+  --animate-b3: b3 2s ease-in forwards;
+  --animate-b4: b4 2s ease-in forwards;
+  --animate-b5: b5 2s ease-in forwards;
+
+@keyframes b1 {
+  0%   { transform: translateY(0) scale(1); opacity: 1; }
+  100% { transform: translateY(200vh) scale(5); opacity: 0; }
+}
+
+@keyframes b2 {
+  0%   { transform: translate(0, 0) scale(1); opacity: 1; }
+  100% { transform: translate(50vw, -200vh) scale(6); opacity: 0; }
+}
+
+@keyframes b3 {
+  0%   { transform: translate(0, 0) scale(1); opacity: 1; }
+  100% { transform: translate(-100vw, -150vh) scale(4); opacity: 0; }
+}
+
+@keyframes b4 {
+  0%   { transform: translate(0, 0) scale(1); opacity: 1; }
+  100% { transform: translate(150vw, 100vh) scale(7); opacity: 0; }
+}
+
+@keyframes b5 {
+  0%   { transform: translate(0, 0) scale(1); opacity: 1; }
+  100% { transform: translate(-50vw, 250vh) scale(5); opacity: 0; }
+}
+
   @keyframes car {
+    0% {
+    transform: translateX(0vw) scale(2) rotate(0deg);
+    opacity: 1;
+    }
+    20% {
+    transform: translateX(25vw) scale(5) rotate(3deg);
+    }
+    40% {
+    transform: translateX(50vw) scale(8) rotate(-5deg);
+    }
+    60% {
+      transform: translateX(100vw) scale(12) rotate(8deg);
+    }
+    80% {
+    transform: translateX(150vw) scale(15) rotate(-3deg);
+    }
+    100% {
+    transform: translateX(200vw) scale(20) rotate(5deg);
+    opacity: 0;
+    }
+  }
+  
+
+  @keyframes growSpin{
     from {
-      opacity:0;
-      transform: scaleY(0%);
-      z:0;
+      transform: rotate(0deg) scale(1);
     }
     to{
-      opacity:1;
-      transform: scaleY(100%);
-      z: 10;
+      transform: rotate(360deg) scale(15);
+    }
+  }
+
+  @keyframes grow{
+    from {
+      transform: scale(1);
+    }
+    to{
+      transform: scale(150);
+    }
+  }
+  
+
+ @keyframes fade-out {
+    from {
+      opacity: 1;
+      transform: scaleY(0px);
+    }
+    to {
+      opacity:0;
+      transform:scaleY(20px);
     }
   }
 
@@ -93,7 +163,7 @@
   }
 
   h2{
-    @apply text-lg md:text-2xl lg:text-4xl text-center my-2 md:my-6 font-space text-mustard text-shadow-sm text-shadow-burntOrange md:col-span-2;
+    @apply text-lg md:text-2xl lg:text-4xl text-center my-1 md:my-6 font-space text-mustard text-shadow-sm text-shadow-burntOrange md:col-span-2;
   }
 
   @keyframes shift {
@@ -116,6 +186,60 @@
 
 /* Custom utilities */
 @layer utilities {
+
+  .animate-spin-knob2 {
+    animation: spin2 2s linear infinite, knob2 2s ease-out forwards;
+  }
+
+
+ @keyframes knob2 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(75vw, 50vh) scale(20);
+    opacity: 0;
+  }
+}
+
+.animate-spin-knob1 {
+    animation: spin2 1.5s linear infinite, knob1 1.5s ease-out forwards;
+  }
+
+  @keyframes spin2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes knob1 {
+    0% {
+      transform: translateX(-5vw) scale(1) rotate(60deg);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(-25vw) translateY(-20vh) scale(2);
+    }
+    40% {
+      transform: translateX(-50vw) translateY(-40vh) scale(5);
+    }
+    60% {
+      transform: translateX(-100vw) translateY(-50vh) scale(8);
+    }
+    80% {
+      transform: translateX(-150vw) translateY(-60vh) scale(10);
+    }
+    100% {
+      transform: translateX(-200vw) translateY(-70vh) scale(12);
+      opacity: 0;
+    }
+  }
+
+
   .effect-underline {
     @apply relative inline-block;
   }
