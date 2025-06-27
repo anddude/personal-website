@@ -66,6 +66,8 @@ export default function About() {
                 <h2>THE HUMAN</h2>
                 <p className="font-thasadith text-center pb-5">When I'm not working on a project, you can find me learning to <a href="http://www.brooklynswings.com/" className="text-burntOrange no-underline effect-underline">swing dance</a>, going on walks around my neighborhood with my dog, or reading a wide range of books — among other things!</p>
               </div>
+
+              {/* Magic 8 ball */}
     </main>
     </div>
     <Footer />
