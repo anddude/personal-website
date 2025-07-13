@@ -1,13 +1,10 @@
 import { Link } from 'react-router-dom';
 import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 export default function Calling() {
   return (
    <>
-    <Navbar />
-    <div className="flex grow items-center justify-center text-burntOrange animate-fade-in">
+    <div className="flex grow items-center justify-center animate-fade-in">
       <main className="mx-auto px-5 max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8">
         <title>Calling</title> 
 
@@ -16,8 +13,8 @@ export default function Calling() {
         </h2>
 
         {/* Optional text or other column goes here */}
-        <div className="flex justify-items-center items-center text-lg text-center font-thasadith">
-          <p><i>Calling</i> &nbsp; is a UT graduate short film, directed by &nbsp;
+        <div className="flex justify-items-center items-center">
+          <p className="shortFilms"><i>Calling</i> &nbsp; is a UT graduate short film, directed by &nbsp;
           <a href="https://www.imdb.com/name/nm3252139/" className=" text-sunset no-underline effect-underline">Artemis Anastasiadou</a> and shot by <a href="https://sarahhennigan.com/" className="text-sunset no-underline effect-underline">Sarah Hennigan</a>. 
           The film explores themes of motherhood, disability, and healing from trauma. It proudly premiered at 
           the Austin Film Festival in 2017—the same year my Broad City spec script, &nbsp;
@@ -43,7 +40,6 @@ export default function Calling() {
 
       </main>
     </div>
-    <Footer />
   </>
   );
 }

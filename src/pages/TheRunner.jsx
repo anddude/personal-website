@@ -1,20 +1,17 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 export default function TheRunner() {
   return (
     <>
-    <Navbar />
-    <div className="flex grow items-center justify-center text-burntOrange opacity-90 drop-shadow-sm animate-fade-in">
+    <div className="flex grow items-center justify-center animate-fade-in">
       <main className="px-5 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8">
         <title>The Runner</title>
 
       <h2 className="text-base md:text-2xl">ASSISTANT DIRECTOR - THE RUNNER (2022)</h2>
 
-      <div className="flex justify-items-center items-center text-lg text-center font-thasadith">
-          <p><em>The Runner</em> &nbsp; is a short film directed by <a href="https://www.ryanmack.com/about" className="text-sunset no-underline effect-underline">
+      <div className="flex justify-items-center items-center">
+          <p className="shortFilms"><em>The Runner</em> &nbsp; is a short film directed by <a href="https://www.ryanmack.com/about" className="text-sunset no-underline effect-underline">
           Ryan Mack</a> and co-written/shot by his brother <a href="https://www.loganmack.com/about" className="text-sunset no-underline effect-underline">Logan Mack</a>. 
           This horror film explores themes of adversity and disability, grounded in authentic lived experience. The lead role is portrayed by an
           actor who is blind, adding a powerful layer of realism to the story. <em>The Runner</em> &nbsp; premiered at the ReelAbilities Film Festival.
@@ -40,7 +37,6 @@ export default function TheRunner() {
 
     </main>
     </div>
-    <Footer />
     </>
   );
 }

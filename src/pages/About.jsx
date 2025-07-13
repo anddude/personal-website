@@ -1,6 +1,3 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-
 import Profile2 from "../assets/images/Profile2.jpg";
 import KidComputer from "../assets/images/KidComputer.jpg";
 import Hiking from "../assets/images/Hiking.jpg";
@@ -8,16 +5,16 @@ import Hiking from "../assets/images/Hiking.jpg";
 
 
 export default function About() {
+  
   return (
     <>
-    <Navbar />
        <div className="flex grow animate-fade-in ">
 
-    <main className="max-w-4xl mx-auto text-sunset container">
+    <main className="max-w-4xl mx-auto container">
           <title>About</title>
           <h1>ABOUT</h1>
           <div className="grid justify-items-center items-center">
-            <p className=" text-sm text-center md:text-lg font-thasadith my-8">Who I am is wrapped up in what I chase: the rabbit holes I fall down, the side projects I lose sleep over, the stories I can’t stop exploring. This page is a thread through the creative detours and obsessions that shaped how I think and how I create.</p>
+            <p className="my-8">Who I am is wrapped up in what I chase: the rabbit holes I fall down, the side projects I lose sleep over, the stories I can’t stop exploring. This page is a thread through the creative detours and obsessions that shaped how I think and how I create.</p>
           </div>
           
             <div className="grid md:grid-cols-2 md:gap-2 lg:gap-4 gap-y-8 items-center justify-items-center p-4 md:p-8">
@@ -70,7 +67,6 @@ export default function About() {
               {/* Magic 8 ball */}
     </main>
     </div>
-    <Footer />
     </>
   );
 }

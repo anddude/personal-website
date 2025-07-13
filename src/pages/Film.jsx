@@ -17,7 +17,6 @@ import RD4 from "../assets/images/RDSet4.png";
 export default function Film() {
   return (
     <>
-    <Navbar />
     <div className="flex grow text-center container animate-fade-in">
       <main className="container font-thasadith p-6 max-w-3xl mx-auto text-sunset">
       <title>Film</title>
@@ -160,7 +159,6 @@ export default function Film() {
       </p>
     </main>
     </div>
-    <Footer />
     </>
   );
 }

@@ -11,6 +11,9 @@ import Pepito from "./pages/Pepito";
 import Landing from "./pages/Landing";
 import FilmGrainOverlay from "./components/FilmGrainOverlay";
 import TVStaticOverlay from "./components/TVStaticOverlay";
+import navItems from "./components/NavbarItems";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import './index.pcss';
 
 function App() {
@@ -18,7 +21,7 @@ function App() {
   const path = location.pathname;
 
   const knownPaths = [
-    "/", "/home", "/about", "/projects", "/film",
+   "/home", "/about", "/projects", "/film",
     "/therunner", "/pepito", "/chicle", "/calling"
   ];
 
@@ -31,6 +34,7 @@ function App() {
   return (
     <div className="relative flex flex-col min-h-screen bg-night bg-blend-multiply text-foreground">
       {overlay}
+      {knownPaths.includes(path) && <Navbar navItems={navItems} />}
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/home" element={<Home />} />
@@ -43,6 +47,7 @@ function App() {
         <Route path="/calling" element={<Calling />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      {knownPaths.includes(path) && <Footer />}
     </div>
   );
 }

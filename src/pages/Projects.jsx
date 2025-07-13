@@ -1,10 +1,7 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import Slider from "../components/Slider";
 
 import BroccoliPong from "../assets/images/Broccoli-Pong.png";
 import Personal from "../assets/images/personalWebsite.png";
-
 
 import bootstrap from "../assets/images/bootstrap.svg";
 import css from "../assets/images/css.svg";
@@ -33,14 +30,13 @@ export default function Projects() {
   ];
   return (
     <>
-    <Navbar />
     <div className="flex grow animate-fade-in ">
 
     <main className="p-6 max-w-3xl mx-auto text-sunset container">
       
       <title>Projects</title>
       <h1>PROJECTS</h1>
-      <p className="text-sm text-center md:text-lg font-thasadith mb-16 mt-8">I’ve always been a lifelong learner, and diving into software engineering has
+      <p className="mb-16 mt-8">I’ve always been a lifelong learner, and diving into software engineering has
       been one of my most rewarding pursuits. My approach is simple: when something feels confusing or intimidating, lean in. 
       That mindset has helped me build valuable skills and collaborate with some truly inspiring people over the years. I bring
       curiosity and a growth mindset to every project I tackle. Here are a few of my recent projects, with more on the way!</p>
@@ -51,13 +47,13 @@ export default function Projects() {
         
 
         {/* Brocoli card div */}
-        <div className="bg-twilight text-glass border rounded-sm shadow-md hover:shadow-smoke p-6 card-hover">
+        <div className="bg-twilight border rounded-sm shadow-md hover:shadow-smoke p-6 card-hover">
 
           <img src={BroccoliPong} alt="Broccoli Pong" className="w-full h-45 mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
 
           <h2 className="font-space text-center text-neonGreen text-xl font-semibold">Broccoli-Pong</h2>
 
-          <p className="font-space text-center text-xs md:text-sm mt-1 md:mt-2">
+          <p className="font-space text-xs md:text-sm mt-1 md:mt-2">
             A pong-style browser game built with vanilla JavaScript. Features interactive DOM manipulation, basic collision detection, and a playful UX. Designed to strengthen logic flow, game loop structure, and responsive design fundamentals.
           </p>
 
@@ -75,9 +71,9 @@ export default function Projects() {
 
           <img src={Personal} alt="Personal Website" className="w-full h-45 mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow" />
 
-          <h2 className="text-center font-space text-neonGreen text-xl font-semibold">Personal Website</h2>
+          <h2 className="font-space text-neonGreen text-xl font-semibold">Personal Website</h2>
 
-          <p className=" text-center font-space text-sm">
+          <p className="font-space text-xs md:text-sm mt-1 md:mt-2">
             A portfolio site built with React, Tailwind, Vite, and PostCSS, deployed via Vercel. Created to showcase projects with a focus on responsive layout, custom animations, and modular design.
           </p>
 
@@ -92,10 +88,10 @@ export default function Projects() {
 
       </div>
 
-        <h1 className="mt-16 text-center text-lg md:text-2xl my-4">LANGUAGES, FRAMEWORKS, DATABASES & MORE!</h1>
-         <p className="text-sm text-center md:text-lg font-thasadith mt-4 mb-8 ">
+        <h2 className="mt-16 my-4">LANGUAGES, FRAMEWORKS, DATABASES & MORE!</h2>
+         <p className="mt-4 mb-8">
           Over the past year, I’ve been diving into a range of technologies, continuously pushing myself to explore new tools, frameworks, and languages with every project. My goal is to expand my skill set through hands-on learning and practical application. While my proficiency varies across the technologies listed below, you can find{" "}
-          <i><span className="text-center whitespace-nowrap no-underline effect-underline hover:text-shadow-sm hover:text-shadow-sunset/50 hover:not-italic">
+          <i><span className="whitespace-nowrap no-underline effect-underline hover:text-shadow-sm hover:text-shadow-sunset/50 hover:not-italic">
             <a href="/AnnieTadvick_Resume_4.25.pdf">more details in my resume.</a>
           </span></i>
         </p>
@@ -106,13 +102,12 @@ export default function Projects() {
         />    
         </div>
 
-        <div className="mt-16 inline-block px-2 py-1 border-2 border-cobalt rounded-xl text-glass font-space bg-transparent">
-          <p className="text-xl pt-5 pl-5 md:text-3xl italic text-left text-shadow-xs text-shadow-smoke">"Simple things should be simple...complex things should be possible."</p> 
+        <div className="mt-16 inline-block px-2 py-1 border-2 border-cobalt rounded-xl font-space bg-transparent">
+          <p className="text-xl pt-5 pl-5 text-glass md:text-3xl italic text-left text-shadow-xs text-shadow-smoke">"Simple things should be simple...complex things should be possible."</p> 
         <h2 className="text-right mt-1 pr-10 text-thabold text-neonGreen/80 text-shadow-xs text-shadow-cobalt">— Alan Perlis</h2>
         </div>
     </main>
     </div>
-    <Footer />
     </>
   );
 }

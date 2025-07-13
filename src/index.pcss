@@ -20,14 +20,14 @@
 
   --animate-fade-in: fade-in 0.7s ease-out forwards;
   --animate-fade-out: fade-out .7s ease-in forwards;
-  --animate-grow: grow 1.75s linear forwards;
-  --animate-growSpin: growSpin 1.5s ease-out forwards;
-  --animate-car: car 2s ease-in forwards;
-  --animate-b1: b1 2s ease-in forwards;
-  --animate-b2: b2 2s ease-in forwards;
-  --animate-b3: b3 2s ease-in forwards;
-  --animate-b4: b4 2s ease-in forwards;
-  --animate-b5: b5 2s ease-in forwards;
+  --animate-grow: grow .75s linear forwards;
+  --animate-growSpin: growSpin .75s ease-out forwards;
+  --animate-car: car 1s ease-in forwards;
+  --animate-b1: b1 1s ease-in forwards;
+  --animate-b2: b2 1s ease-in forwards;
+  --animate-b3: b3 1s ease-in forwards;
+  --animate-b4: b4 1s ease-in forwards;
+  --animate-b5: b5 1s ease-in forwards;
 
 @keyframes b1 {
   0%   { transform: translateY(0) scale(1); opacity: 1; }
@@ -166,6 +166,18 @@
     @apply text-lg md:text-2xl lg:text-4xl text-center my-1 md:my-6 font-space text-mustard text-shadow-sm text-shadow-burntOrange md:col-span-2;
   }
 
+  p {
+    @apply text-sm text-center md:text-lg font-thasadith text-sunset
+  }
+
+  .shortFilms{
+    @apply text-burntOrange opacity-90 drop-shadow-sm 
+  }
+
+  .navbarItem{
+    @apply text-glass font-space font-bold text-base text-sm md:text-xl lg:text-2xl hover:text-neonGreen hover:text-shadow-sunset hover:text-shadow-xs
+  }
+
   @keyframes shift {
     0% {
       transform: translate(2%, 2%);
@@ -188,7 +200,7 @@
 @layer utilities {
 
   .animate-spin-knob2 {
-    animation: spin2 2s linear infinite, knob2 2s ease-out forwards;
+    animation: spin2 1s linear infinite, knob2 1s ease-out forwards;
   }
 
 
@@ -204,7 +216,7 @@
 }
 
 .animate-spin-knob1 {
-    animation: spin2 1.5s linear infinite, knob1 1.5s ease-out forwards;
+    animation: spin2 1s linear infinite, knob1 1s ease-out forwards;
   }
 
   @keyframes spin2 {

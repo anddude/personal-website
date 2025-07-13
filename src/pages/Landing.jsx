@@ -35,18 +35,18 @@ const navigate = useNavigate();
 useEffect(() => {
 
   const timers = [
-    setTimeout(() => setTv(true), 3200),
-    setTimeout(() => setTvBg(true), 2500),
-    setTimeout(() => setBgCracked(true), 3500),
-    setTimeout(() => setByeBunny(true), 3250),
-    setTimeout(() => setwhiteGrow(true), 3600),
-    setTimeout(() => setwhiteGrow2(true), 3750),
-    setTimeout(() => setCar(true), 3150),
-    setTimeout(() => setKnobs(true), 3150),
-    setTimeout(() => setButtons1(true), 3200),
-    setTimeout(() => setButtons2(true), 3200),
-    setTimeout(() => setPageFadeOut(true), 4125),
-    setTimeout(() => navigate("/home"), 4250),
+    setTimeout(() => setTv(true), 2700),
+    setTimeout(() => setTvBg(true), 2000),
+    setTimeout(() => setBgCracked(true), 3000),
+    setTimeout(() => setByeBunny(true), 2750),
+    setTimeout(() => setwhiteGrow(true), 3100),
+    setTimeout(() => setwhiteGrow2(true), 3250),
+    setTimeout(() => setCar(true), 2650),
+    setTimeout(() => setKnobs(true), 2650),
+    setTimeout(() => setButtons1(true), 2700),
+    setTimeout(() => setButtons2(true), 2700),
+    setTimeout(() => setPageFadeOut(true), 3625),
+    setTimeout(() => navigate("/home"), 3750),
   ]
 
   return () => timers.forEach(clearTimeout);

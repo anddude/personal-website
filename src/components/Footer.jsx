@@ -97,7 +97,7 @@ function Footer() {
           </a>
         </div>
 
-        <p className="text-xs pt-10 font-space mt-8">&copy; 2025 - Made By Annie Tadvick</p>
+        <p className="text-xs pt-10 text-neonGreen/50 mt-8">&copy; 2025 - Made By Annie Tadvick</p>
         </div>
       </footer>
   );

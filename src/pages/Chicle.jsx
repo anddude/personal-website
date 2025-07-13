@@ -7,8 +7,7 @@ import Footer from "../components/Footer";
 export default function Chicle() {
   return (
     <>
-    <Navbar />
-    <div className="flex grow items-center justify-center text-burntOrange animate-fade-in">
+    <div className="flex grow items-center justify-center animate-fade-in">
       <main className="mx-auto px-5 max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-8">
       <title>Chicle</title>
      {/* Video Player */}
@@ -16,8 +15,8 @@ export default function Chicle() {
         PRODUCER - CHICLE (2019)
       </h2> 
 
-      <div className="flex text-center text-lg font-thasadith items-center">
-          <p><i>Chicle (Gum)</i> &nbsp; is a UT graduate thesis film directed by &nbsp;
+      <div className="flex items-center">
+          <p className="shortFilms"><i>Chicle (Gum)</i> &nbsp; is a UT graduate thesis film directed by &nbsp;
           <a href="https://www.lizettebarrera.com/" className="text-sunset no-underline effect-underline">Lizette Barrera Morales</a>&nbsp; 
           and shot by <a href="https://faculty.txst.edu/profile/2109077" className="text-sunset no-underline effect-underline">Huay-Bing Law</a>. 
           The short follows an ill-tempered teenager who seeks peaceful solitude on the day of her grandfather’s passing 
@@ -50,7 +49,6 @@ export default function Chicle() {
 
     </main>
     </div>
-    <Footer />
     </>
   );
 }

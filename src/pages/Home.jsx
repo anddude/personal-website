@@ -1,13 +1,10 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 
 import LongPic from "../assets/images/LongPic.jpg";
 
 export default function Home() {
   return (
-    <>
-    <Navbar />   
+    <>  
     <div className="flex grow font-thasadith text-sunset bg-background container text-center animate-fade-in">
       <title>Annie Tadvick</title>
     <main className="  
@@ -49,7 +46,6 @@ export default function Home() {
       </div>
     </main>
     </div>
-   <Footer />
   </>
   );
 }
