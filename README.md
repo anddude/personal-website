@@ -32,7 +32,6 @@ Install dependencies and start the development server:
 npm install 
 npm run dev
 ```
-<br>
 
 ### Step 5 
 In your terminal, you’ll see a localhost URL like:
