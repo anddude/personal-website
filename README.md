@@ -38,4 +38,8 @@ In your terminal, you’ll see a localhost URL like:
 ```
 http://localhost:5173/
 ```
+<<<<<<< HEAD
 Command + click the link (or copy it into your browser) to see the website running locally! 🎉
+=======
+Command + click the link (or copy it into your browser) to see the website running locally! 🎉
+>>>>>>> refs/remotes/origin/main
