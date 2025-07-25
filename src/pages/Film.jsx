@@ -1,14 +1,10 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import shortsFilmPageDetails from '../components/ShortFilmPagesDetails';
 
 import TellurideGroup from "../assets/images/TellurideGroup.jpg";
 import TellurideAlone from "../assets/images/TellurideAlone.jpg";
-import Chicle from "../assets/images/chicle2.png";
-import TheRunner from "../assets/images/Runner2.png";
-import Calling from "../assets/images/Calling2.png";
-import Pepito from "../assets/images/Pepito3.jpg";
+
 import RD1 from "../assets/images/RDSet1.png";
 import RD2 from "../assets/images/RDSet2.jpg";
 import RD3 from "../assets/images/RDSet3.jpg";
@@ -56,72 +52,25 @@ export default function Film() {
 
       {/* PRODUCING */}
       <div className="grid mt-16 grid-cols-2 gap-8">
+        {shortsFilmPageDetails.map(({ slug, title, poster }) => (
+          <Link key={slug} to={`/film/${slug}`}>
+          <img 
+            src={poster} 
+            alt={title}
+            className="
+                md:w-96                
+                rounded-lg         
+                shadow-lg           
+                hover:scale-105    
+                transition-transform
+                duration-200
+                cursor-pointer
+                "
+           />
+          </Link>
+           ))}
+      </div>
 
-        <Link to="/chicle">
-        <img 
-        src={Chicle} 
-        alt="Chicle"
-        className="
-            md:w-96                
-            rounded-lg         
-            shadow-lg           
-            hover:scale-105    
-            transition-transform
-            duration-200
-            cursor-pointer
-          "
-          ></img>
-        </Link>
-
-        <Link to="/therunner">
-        <img 
-        src={TheRunner} 
-        alt="The Runner"
-        className="
-            md:w-96               
-            rounded-lg         
-            shadow-lg           
-            hover:scale-105    
-            transition-transform
-            duration-200
-            cursor-pointer
-          "
-          ></img>
-        </Link>
-
-        <Link to="/calling">
-        <img 
-        src={Calling} 
-        alt="Calling"
-         className="
-            md:w-96                
-            rounded-lg         
-            shadow-lg           
-            hover:scale-105    
-            transition-transform
-            duration-200
-            cursor-pointer
-          "
-        ></img>
-        </Link>
-        
-        <Link to="/pepito">
-        <img 
-        src={Pepito}
-        alt="Pepito"
-        className="
-            md:w-96                
-            rounded-lg         
-            shadow-lg           
-            hover:scale-105    
-            transition-transform
-            duration-200
-            cursor-pointer
-          "
-        ></img>
-        </Link>
-
-        </div>
         <p className="mt-8 pb-4">
         <a href="https://www.imdb.com/name/nm6860917/?ref_=fn_all_nme_1"><span className="text-burntOrange font-thabold no-underline effect-underline">Independent Producing & Assistant Directing</span></a> — Produced award-winning projects screened at
         festivals and platforms including SXSW, Outfest, Austin Film Festival,

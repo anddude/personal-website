@@ -1,13 +1,11 @@
 import { Routes, Route, useLocation } from "react-router-dom";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Film from "./pages/Film";
+
 import NotFound from "./pages/NotFound";
-import TheRunner from "./pages/TheRunner";
-import Chicle from "./pages/Chicle";
-import Calling from "./pages/Calling";
-import Pepito from "./pages/Pepito";
 import Landing from "./pages/Landing";
 import FilmGrainOverlay from "./components/FilmGrainOverlay";
 import TVStaticOverlay from "./components/TVStaticOverlay";
@@ -15,14 +13,15 @@ import navItems from "./components/NavbarItems";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import './index.pcss';
+import shortsFilmPageDetails from '/src/components/ShortFilmPagesDetails';
+import ShortFilmPages from "./pages/ShortFilmPages";
 
 function App() {
   const location = useLocation();
   const path = location.pathname;
 
   const knownPaths = [
-   "/home", "/about", "/projects", "/film",
-    "/therunner", "/pepito", "/chicle", "/calling"
+   "/home", "/about", "/projects", "/film", ...shortsFilmPageDetails.map((film) => film.path), 
   ];
 
   const overlay = path === "/"
@@ -41,10 +40,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/film" element={<Film />} />
-        <Route path="/therunner" element={<TheRunner />} />
-        <Route path="/pepito" element={<Pepito />} />
-        <Route path="/chicle" element={<Chicle />} />
-        <Route path="/calling" element={<Calling />} />
+        <Route path="/film/:slug" element={<ShortFilmPages shortsFilmPageDetails={shortsFilmPageDetails} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       {knownPaths.includes(path) && <Footer />}

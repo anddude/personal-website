@@ -9,7 +9,7 @@ export default function Home() {
       <title>Annie Tadvick</title>
     <main className="  
     w-full
-    max-w-5xl 
+    max-w-8xl 
     mx-auto
     grid 
     grid-cols-1
@@ -25,15 +25,15 @@ export default function Home() {
           <img 
           src={LongPic} 
           alt="New York City's winter" 
-          className="p-px w-auto h-80 mx-auto mb-6 object-cover rounded-sm shadow-md image-to-dim"
+          className="p-px w-auto h-85 mx-auto mb-6 object-cover rounded-sm shadow-md image-to-dim"
           />
           <div className="text-neonGreen font-space overlay-text">Film Photo by &nbsp;<a href="https://www.imdb.com/name/nm7670398/" className="no-underline effect-underline">Morgan Armstrong</a></div>
           </div>
       </div>
       
-      <div>
+      <div className="mr-15">
         <h1>
-        HOWDY <span className="">{cowboy}</span>
+        HOWDY <span>{cowboy}</span>
         </h1>
         <p>
           I'm Annie — a filmmaker turned software engineer with a passion for building thoughtful,
