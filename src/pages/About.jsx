@@ -30,13 +30,13 @@ export default function About() {
 
               <div className="order-2 bg-cobalt/50 p-5 mx-auto justify-center rounded-xl relative group hover:scale-102 transition-transform duration-200">
                 <h2>THE BUILDER</h2>
-                <p className="font-thasadith text-center">In a world of infinite possibilities, I’ve always chosen to be a builder—of stories, community, and now, software. Whether I was crafting films from the ground up, hosting comedy shows, or fundraising for non-profits, I’ve always been drawn to world-building: imagining what could be, then making it real.</p>
+                <p className="font-thasadith text-center">In a world of infinite possibilities, I’ve always chosen to be a builder of stories, community, and now, software. Whether I was crafting films from the ground up, hosting comedy shows, or fundraising for non-profits, I’ve always been drawn to world-building: imagining what could be, then making it real.</p>
               </div>
 
             
               <div className="order-4 md:order-3 p-5 mx-auto justify-center border border-smoke rounded-lg relative group hover:scale-102 transition-transform duration-200">
                 <h2>THE JOURNEY</h2>
-                <p className="font-thasadith text-center">My journey into tech started early—customizing clunky Freewebs templates as a kid just to share my suburban musings online. While working in production, I kept returning to tech—fixing workflows, updating websites, and dreaming up tools to streamline the chaos. That spark eventually became a full pivot. I dove into YouTube tutorials, devoured algorithm books, and worked my way through Harvard’s CS50 and freeCodeCamp, building whimsical, interactive websites from scratch to sharpen my skills.</p>
+                <p className="font-thasadith text-center">My journey into tech started early: customizing clunky Freewebs templates as a kid just to share my suburban musings online. While working in production, I kept returning to tech—fixing workflows, updating websites, and dreaming up tools to streamline the chaos. That spark eventually became a full pivot. I dove into YouTube tutorials, devoured algorithm books, and worked my way through Harvard’s CS50 and freeCodeCamp, building whimsical, interactive websites from scratch to sharpen my skills.</p>
               </div>
 
               <div className="order-3 md:order-4">
@@ -63,7 +63,7 @@ export default function About() {
             <div className="p-5 justify-center relative group border border-smoke rounded-lg mt-8 hover:scale-102 transition-transform duration-200">
                 <h2>THE HUMAN</h2>
                 <p className="font-thasadith text-center pb-5">When I'm not working on a project, you can find me learning to <a href="http://www.brooklynswings.com/" target="_blank"
-                rel="noopener noreferrer" className="text-burntOrange no-underline effect-underline">swing dance</a>, going on walks around my neighborhood with my dog, or reading a wide range of books — among other things!</p>
+                rel="noopener noreferrer" className="text-burntOrange no-underline effect-underline">swing dance</a>, going on walks around my neighborhood with my dog, or reading a wide range of books, among other things!</p>
               </div>
 
               {/* Magic 8 ball */}
