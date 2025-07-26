@@ -7,6 +7,12 @@ function Navbar({ navItems }) {
   const location = useLocation();
   const currentPath = location.pathname;
 
+  // const [isOpen, setIsOpen] = useState(false);
+
+  // const toggleMenu = () => {
+  //   setIsOpen((open) => !open);
+  // }
+
   return (
     <nav className="w-full">
 

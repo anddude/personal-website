@@ -7,9 +7,7 @@ import shortsFilmPageDetails from '../components/ShortFilmPagesDetails';
 
 export default function CurrentShortFilmPage() {
   const { slug } = useParams();
-    
     const filmData = shortsFilmPageDetails.find(f => f.slug === slug);
-    
     const { title, credit, description, video } = filmData;
 
 

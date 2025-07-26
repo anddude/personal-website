@@ -31,7 +31,7 @@ export default function Home() {
           </div>
       </div>
       
-      <div className="mr-15">
+      <div>
         <h1>
         HOWDY <span>{cowboy}</span>
         </h1>

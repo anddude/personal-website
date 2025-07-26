@@ -10,7 +10,7 @@ export default function About() {
     <>
        <div className="flex grow animate-fade-in ">
 
-    <main className="max-w-4xl mx-auto container">
+    <main className="p-6 max-w-4xl mx-auto container">
           <title>About</title>
           <h1>ABOUT</h1>
           <div className="grid justify-items-center items-center">
