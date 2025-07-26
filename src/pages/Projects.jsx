@@ -42,7 +42,7 @@ export default function Projects() {
       curiosity and a growth mindset to every project I tackle. Here are a few of my recent projects, with more on the way!</p>
       {/* card divs */}
       
-      <div className="mt-16 p-4 justify-center grid md:grid-cols-2 gap-16 ">
+      <div className="mt-16 p-8 justify-center grid md:grid-cols-2 gap-16 ">
 
         
 
