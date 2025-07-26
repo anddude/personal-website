@@ -14,7 +14,7 @@ export default function Film() {
   return (
     <>
     <div className="flex grow text-center container animate-fade-in">
-      <main className="container font-thasadith p-6 max-w-3xl mx-auto text-sunset">
+      <main className="container font-thasadith p-6 max-w-4xl mx-auto text-sunset">
       <title>Film</title>
         <h1>FILM & TV</h1>
           <p className="mb-16 mt-8">I spent nearly a decade working in &nbsp;

@@ -32,7 +32,7 @@ export default function Projects() {
     <>
     <div className="flex grow animate-fade-in ">
 
-    <main className="p-6 max-w-3xl mx-auto text-sunset container">
+    <main className="p-6 max-w-4xl mx-auto text-sunset container">
       
       <title>Projects</title>
       <h1>PROJECTS</h1>
@@ -54,7 +54,7 @@ export default function Projects() {
           <h2 className="font-space text-center text-neonGreen text-xl font-semibold">Broccoli-Pong</h2>
 
           <p className="font-space text-xs md:text-sm mt-1 md:mt-2">
-            A pong-style browser game built with vanilla JavaScript. Features interactive DOM manipulation, basic collision detection, and a playful UX. Designed to strengthen logic flow, game loop structure, and responsive design fundamentals.
+            A pong-style browser game built with vanilla JavaScript. Features interactive DOM manipulation, basic collision detection, and a playful UX. Designed to strengthen logic flow and game loop structure fundamentals.
           </p>
 
           <div className="font-space grid grid-cols-2 gap-4 place-content-center text-sunset mt-6 text-center">
@@ -74,7 +74,7 @@ export default function Projects() {
           <h2 className="font-space text-neonGreen text-xl font-semibold">Personal Website</h2>
 
           <p className="font-space text-xs md:text-sm mt-1 md:mt-2">
-            A portfolio site built with React, Tailwind, Vite, and PostCSS, deployed via Vercel. Created to showcase projects with a focus on responsive layout, custom animations, and modular design.
+            A personal portfolio site built with React, Tailwind, and Vite. Features modular components, custom animations, and responsive layouts. Designed to showcase projects and sharpen modern front-end skills.
           </p>
 
           <div className="font-space grid grid-cols-2 gap-4 place-content-center text-sunset mt-6 text-center">
