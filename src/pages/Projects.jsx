@@ -59,9 +59,9 @@ export default function Projects() {
 
           <div className="font-space grid grid-cols-2 gap-4 place-content-center text-sunset mt-6 text-center">
             <button className="bg-neonGreen/80 rounded-sm border-2 border-smoke hover hover:bg-neonGreen  hover:border-glass card-hover">
-              <a href="https://broccoli-pong.netlify.app/" className="text-center text-twilight font-space">Live Site</a></button>
+              <a href="https://broccoli-pong.netlify.app/" target="_blank" rel="noopener noreferrer"className="text-center text-twilight font-space">Live Site</a></button>
             <button className="bg-neonGreen/80 rounded-sm border-2 border-smoke hover hover:bg-neonGreen hover:border-glass card-hover">
-              <a href="https://github.com/anddude/broccoli-pong" className="text-center text-twilight font-space">GitHub</a></button>
+              <a href="https://github.com/anddude/broccoli-pong" target="_blank" rel="noopener noreferrer"className="text-center text-twilight font-space">GitHub</a></button>
           </div>
 
         </div>
@@ -79,9 +79,9 @@ export default function Projects() {
 
           <div className="font-space grid grid-cols-2 gap-4 place-content-center text-sunset mt-6 text-center">
             <button className="bg-neonGreen/80 rounded-sm border-2 border-smoke hover hover:bg-neonGreen hover:border-glass card-hover">
-              <a href="https://annietadvick.com" className="text-center text-twilight font-space">Live Site</a></button>
+              <a href="https://annietadvick.com" target="_blank" rel="noopener noreferrer" className="text-center text-twilight font-space">Live Site</a></button>
             <button className="bg-neonGreen/80 rounded-sm border-2 border-smoke hover hover:bg-neonGreen hover:border-glass card-hover">
-            <a href="https://github.com/anddude/personal-website" className="text-center text-twilight font-space">GitHub</a></button>
+            <a href="https://github.com/anddude/personal-website" target="_blank" rel="noopener noreferrer" className="text-center text-twilight font-space">GitHub</a></button>
           </div>
 
         </div>
@@ -92,7 +92,7 @@ export default function Projects() {
          <p className="mt-4 mb-8">
           Over the past year, I’ve been diving into a range of technologies, continuously pushing myself to explore new tools, frameworks, and languages with every project. My goal is to expand my skill set through hands-on learning and practical application. While my proficiency varies across the technologies listed below, you can find{" "}
           <i><span className="whitespace-nowrap no-underline effect-underline hover:text-shadow-sm hover:text-shadow-sunset/50 hover:not-italic">
-            <a href="/AnnieTadvick_Resume_4.25.pdf">more details in my resume.</a>
+            <a href="/AnnieTadvick_Resume_4.25.pdf" target="_blank" rel="noopener noreferrer">more details in my resume.</a>
           </span></i>
         </p>
 

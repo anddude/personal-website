@@ -23,7 +23,8 @@ export default function About() {
               <div className="order-1 p-1 md:p-5">
                 <div className="image-details-effect w-fit relative group">
                   <img src={Profile2} alt="Profile" className="mx-auto w-80 h-64 object-cover rounded-sm shadow-md image-to-dim"/>
-                    <div className="overlay-text font-space text-xs md:text-xs lg:text-xs">Candid Photo by &nbsp;<a href="https://www.brianroedel.com/" className="no-underline effect-underline">Brian Roedel</a></div>
+                    <div className="overlay-text font-space text-xs md:text-xs lg:text-xs">Candid Photo by &nbsp;<a href="https://www.brianroedel.com/" target="_blank"
+                rel="noopener noreferrer" className="no-underline effect-underline">Brian Roedel</a></div>
                 </div> 
               </div>
 
@@ -61,10 +62,12 @@ export default function About() {
             </div>
             <div className="p-5 justify-center relative group border border-smoke rounded-lg mt-8 hover:scale-102 transition-transform duration-200">
                 <h2>THE HUMAN</h2>
-                <p className="font-thasadith text-center pb-5">When I'm not working on a project, you can find me learning to <a href="http://www.brooklynswings.com/" className="text-burntOrange no-underline effect-underline">swing dance</a>, going on walks around my neighborhood with my dog, or reading a wide range of books — among other things!</p>
+                <p className="font-thasadith text-center pb-5">When I'm not working on a project, you can find me learning to <a href="http://www.brooklynswings.com/" target="_blank"
+                rel="noopener noreferrer" className="text-burntOrange no-underline effect-underline">swing dance</a>, going on walks around my neighborhood with my dog, or reading a wide range of books — among other things!</p>
               </div>
 
               {/* Magic 8 ball */}
+
     </main>
     </div>
     </>

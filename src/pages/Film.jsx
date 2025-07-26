@@ -18,7 +18,7 @@ export default function Film() {
       <title>Film</title>
         <h1>FILM & TV</h1>
           <p className="mb-16 mt-8">I spent nearly a decade working in &nbsp;
-            <a href="https://www.imdb.com/name/nm6860917/?ref_=fn_all_nme_1" className="text-burntOrange no-underline effect-underline">Film & TV</a>&nbsp; across a variety of roles. I specialized
+            <a href="https://www.imdb.com/name/nm6860917/?ref_=fn_all_nme_1" target="_blank" rel="noopener noreferrer" className="text-burntOrange no-underline effect-underline">Film & TV</a>&nbsp; across a variety of roles. I specialized
             in leading creative teams, managing high-pressure logistics, and 
             delivering powerful visual storytelling — skills that now inform my 
             approach to software development.
@@ -42,7 +42,7 @@ export default function Film() {
         </div>
         </div>
       <p className="mt-8 pb-4" padding="bottom">
-       <a href="https://www.telluridefilmfestival.org/"><span className="text-burntOrange font-thabold no-underline effect-underline">Telluride Film Festival</span></a> — My journey began as a Student Symposium 
+       <a href="https://www.telluridefilmfestival.org/" target="_blank" rel="noopener noreferrer"><span className="text-burntOrange font-thabold no-underline effect-underline">Telluride Film Festival</span></a> — My journey began as a Student Symposium 
         member (1 of 24 selected) in 2015. I returned as a volunteer, was
         later chosen as one of 12 annual Production Apprentices (“TFF Dogs”) 
         in 2018, and eventually worked as an Assistant Manager of Theater 
@@ -72,7 +72,7 @@ export default function Film() {
       </div>
 
         <p className="mt-8 pb-4">
-        <a href="https://www.imdb.com/name/nm6860917/?ref_=fn_all_nme_1"><span className="text-burntOrange font-thabold no-underline effect-underline">Independent Producing & Assistant Directing</span></a> — Produced award-winning projects screened at
+        <a href="https://www.imdb.com/name/nm6860917/?ref_=fn_all_nme_1" target="_blank" rel="noopener noreferrer"><span className="text-burntOrange font-thabold no-underline effect-underline">Independent Producing & Assistant Directing</span></a> — Produced award-winning projects screened at
         festivals and platforms including SXSW, Outfest, Austin Film Festival,
         HBO Max, Texas Filmmakers’ Showcase, Austin Film Society and the Greek
         Drama Film Festival - to name a few!
@@ -101,7 +101,7 @@ export default function Film() {
         </div>
         </div>
         <p className="mt-8">
-        <a href="https://www.imdb.com/title/tt14124268/"><span className="text-burntOrange font-thabold no-underline effect-underline">Ray Donovan The Movie (Showtime)</span></a> — After moving from LA to NYC, 
+        <a href="https://www.imdb.com/title/tt14124268/" target="_blank" rel="noopener noreferrer"><span className="text-burntOrange font-thabold no-underline effect-underline">Ray Donovan The Movie (Showtime)</span></a> — After moving from LA to NYC, 
         I started from the ground up as temp Health and Safety PA. 
         On this set, I worked my way up from Office PA to On-Set Director’s Assistant and was later 
         recommended for a role at Mark Gordon Pictures which began a brief segue into the world of film/tv development.
