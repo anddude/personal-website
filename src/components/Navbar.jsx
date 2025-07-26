@@ -7,28 +7,22 @@ function Navbar({ navItems }) {
   const location = useLocation();
   const currentPath = location.pathname;
 
-  // const [isOpen, setIsOpen] = useState(false);
-
-  // const toggleMenu = () => {
-  //   setIsOpen((open) => !open);
-  // }
-
   return (
     <nav className="w-full">
 
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between p-4 md:p-8">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center gap-4 p-4 md:flex-row md:items-center md:justify-between md:p-8">
+
       
         <div>
           <Link to="/home">
-            <div className={`font-space font-bold p-1 md:p-2 lg:p-4 text-lg md:text-4xl lg:text-6xl text-mustard text-shadow-sm text-shadow-burntOrange effect-box ${currentPath === "/home" ? "effect-box-show" : ""}`}>
-            Annie Tadvick
-        </div>
-
+            <div className={`font-space font-bold p-1 md:p-2 lg:p-4 text-4xl lg:text-6xl text-mustard text-shadow-sm text-shadow-burntOrange effect-box ${currentPath === "/home" ? "effect-box-show" : ""}`}>
+              Annie Tadvick
+            </div>
           </Link>
         </div>
         
         <div className="relative">
-          <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
+          <div className="absolute inset-0 flex justify-center items-center pointer-events-none text-7xl">
             <div className="w-[100%] h-[25%] px-[5%] bg-cover bg-mocha bg-blend-multiply opacity-50 rounded-lg" style={{ backgroundImage: `url(${WG})` }}/>
           </div>
           <ul className="relative flex items-center space-x-2 sm:space-x-4 md:space-x-6">
