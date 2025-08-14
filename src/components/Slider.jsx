@@ -30,7 +30,9 @@ function Slider({ images = [] }) {
       <div
         ref={sliderRef}
         onTransitionEnd={handleTransitionEnd}
-        className={`flex ${transitionEnabled ? "transition-transform duration-500" : ""}`}
+        className={`flex ${
+          transitionEnabled ? "transition-transform duration-500" : ""
+        }`}
         style={{ transform: `translateX(-${slideIndex * (100 / 3)}%)` }}
       >
         {extendedImages.map((img, index) => {

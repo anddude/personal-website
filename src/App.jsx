@@ -12,8 +12,8 @@ import TVStaticOverlay from "./components/TVStaticOverlay";
 import navItems from "./components/NavbarItems";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import './index.pcss';
-import shortsFilmPageDetails from '/src/components/ShortFilmPagesDetails';
+import "./index.pcss";
+import shortsFilmPageDetails from "/src/components/ShortFilmPagesDetails";
 import ShortFilmPages from "./pages/ShortFilmPages";
 
 function App() {
@@ -21,14 +21,19 @@ function App() {
   const path = location.pathname;
 
   const knownPaths = [
-   "/home", "/about", "/projects", "/film", ...shortsFilmPageDetails.map((film) => film.path), 
+    "/home",
+    "/about",
+    "/projects",
+    "/film",
+    ...shortsFilmPageDetails.map((film) => film.path),
   ];
 
-  const overlay = path === "/"
-    ? null
-    : knownPaths.includes(path)
-      ? <FilmGrainOverlay />
-      : <TVStaticOverlay />;
+  const overlay =
+    path === "/" ? null : knownPaths.includes(path) ? (
+      <FilmGrainOverlay />
+    ) : (
+      <TVStaticOverlay />
+    );
 
   return (
     <div className="relative flex flex-col min-h-screen bg-night bg-blend-multiply text-foreground">
@@ -40,7 +45,12 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/film" element={<Film />} />
-        <Route path="/film/:slug" element={<ShortFilmPages shortsFilmPageDetails={shortsFilmPageDetails} />} />
+        <Route
+          path="/film/:slug"
+          element={
+            <ShortFilmPages shortsFilmPageDetails={shortsFilmPageDetails} />
+          }
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
       {knownPaths.includes(path) && <Footer />}
