@@ -148,7 +148,7 @@ export default function Projects() {
               <p className="font-space text-xs md:text-sm mt-1 md:mt-2">
                 QTS Guide is a playful, interactive city and house guide that
                 organizes NYC recommendations, house essentials, and insider
-                tips — all powered by dynamic JSON data. Current
+                tips, all powered by dynamic JSON data. Current
                 work-in-progress with password-protected content and dropdown
                 nav coming soon!
               </p>
