@@ -1,13 +1,13 @@
-import Chicle from "../assets/images/chicle2.png";
-import TheRunner from "../assets/images/Runner2.png";
-import Calling from "../assets/images/Calling2.png";
-import Pepito from "../assets/images/Pepito3.jpg";
+import Chicle from '../assets/images/chicle2.png';
+import TheRunner from '../assets/images/Runner2.png';
+import Calling from '../assets/images/Calling2.png';
+import Pepito from '../assets/images/Pepito3.jpg';
 
 const shortsFilmPageDetails = [
   {
     slug: `pepito`,
     title: `Pepito`,
-    path: "/film/pepito",
+    path: '/film/pepito',
     credit: `ASSISTANT DIRECTOR - PEPITO (2018)`,
     description: `<i>Pepito</i> &nbsp; is a heartfelt passion project directed by &nbsp;
                     <a href="https://www.imdb.com/name/nm8566784/?ref_=fn_all_nme_1" class="text-sunset no-underline effect-underline">Eman Esfandi</a>&nbsp;
@@ -23,7 +23,7 @@ const shortsFilmPageDetails = [
   {
     slug: `therunner`,
     title: `The Runner`,
-    path: "/film/therunner",
+    path: '/film/therunner',
     credit: `ASSISTANT DIRECTOR - THE RUNNER (2022)`,
     description: `<i>The Runner</i> &nbsp; is a short film directed by <a href="https://www.ryanmack.com/about" class="text-sunset no-underline effect-underline">
                     Ryan Mack</a> and co-written/shot by his brother <a href="https://www.loganmack.com/about" class="text-sunset no-underline effect-underline">Logan Mack</a>. 
@@ -36,7 +36,7 @@ const shortsFilmPageDetails = [
   {
     slug: `calling`,
     title: `Calling`,
-    path: "/film/calling",
+    path: '/film/calling',
     credit: `PRODUCER - CALLING (2017)`,
     description: `<i>Calling</i> &nbsp; is a UT graduate short film, directed by &nbsp;
                     <a href="https://www.imdb.com/name/nm3252139/" class=" text-sunset no-underline effect-underline">Artemis Anastasiadou</a> and shot by <a href="https://sarahhennigan.com/" class="text-sunset no-underline effect-underline">Sarah Hennigan</a>. 
@@ -53,7 +53,7 @@ const shortsFilmPageDetails = [
   {
     slug: `chicle`,
     title: `Chicle`,
-    path: "/film/chicle",
+    path: '/film/chicle',
     credit: ` PRODUCER - CHICLE (2019)`,
     description: `<i>Chicle (Gum)</i> &nbsp; is a UT graduate thesis film directed by &nbsp;
                     <a href="https://www.lizettebarrera.com/" class="text-sunset no-underline effect-underline">Lizette Barrera Morales</a>&nbsp; 

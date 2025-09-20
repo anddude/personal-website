@@ -1,7 +1,7 @@
 const navItems = [
-    { name: 'About', path: '/about' },
-    { name: 'Projects', path: '/projects' },
-    { name: 'Film', path: '/film' },
+  { name: 'Projects', path: '/projects' },
+  { name: 'About', path: '/about' },
+  { name: 'Film', path: '/film' },
 ];
 
 export default navItems;

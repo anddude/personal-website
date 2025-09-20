@@ -1,7 +1,7 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation } from 'react-router-dom';
 
-import WG from "../assets/images/woodgrain.png";
-import Resume from "../assets/AnnieTadvick_Resume_8.25.pdf";
+import WG from '../assets/images/woodgrain.png';
+import Resume from '../assets/AnnieTadvick_Resume_8.25.pdf';
 
 function Navbar({ navItems }) {
   const location = useLocation();
@@ -14,7 +14,7 @@ function Navbar({ navItems }) {
           <Link to="/home">
             <div
               className={`font-space font-bold p-1 md:p-2 lg:p-4 text-4xl lg:text-6xl text-mustard text-shadow-sm text-shadow-burntOrange effect-box ${
-                currentPath === "/home" ? "effect-box-show" : ""
+                currentPath === '/home' ? 'effect-box-show' : ''
               }`}
             >
               Annie Tadvick
@@ -37,8 +37,8 @@ function Navbar({ navItems }) {
                     to={path}
                     className={`navbarItem ${
                       currentPath === path
-                        ? "text-neonGreen/80 text-shadow-smoke text-shadow-sm"
-                        : "hover:text-neonGreen hover:text-shadow-sunset hover:text-shadow-xs"
+                        ? 'text-neonGreen/80 text-shadow-smoke text-shadow-sm'
+                        : 'hover:text-neonGreen hover:text-shadow-sunset hover:text-shadow-xs'
                     }`}
                   >
                     {name}

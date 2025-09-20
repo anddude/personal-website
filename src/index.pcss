@@ -1,10 +1,10 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 /* Theme variables */
 @theme {
-  --font-thasadith: "thasadith";
-  --font-space: "space";
-  --font-thabold: "thabold";
+  --font-thasadith: 'thasadith';
+  --font-space: 'space';
+  --font-thabold: 'thabold';
 
   --color-night: #0e0e11;
   --color-neonGreen: #00f292;
@@ -154,18 +154,18 @@
 /* Font face */
 @layer base {
   @font-face {
-    font-family: "thasadith";
-    src: url("/Fonts/Thasadith-Regular.ttf") format("truetype");
+    font-family: 'thasadith';
+    src: url('/Fonts/Thasadith-Regular.ttf') format('truetype');
   }
 
   @font-face {
-    font-family: "space";
-    src: url("/Fonts/SpaceGrotesk-Regular.ttf") format("truetype");
+    font-family: 'space';
+    src: url('/Fonts/SpaceGrotesk-Regular.ttf') format('truetype');
   }
 
   @font-face {
-    font-family: "thabold";
-    src: url("/Fonts/Thasadith-Bold.ttf") format("truetype");
+    font-family: 'thabold';
+    src: url('/Fonts/Thasadith-Bold.ttf') format('truetype');
   }
 
   *,
@@ -225,7 +225,9 @@
 /* Custom utilities */
 @layer utilities {
   .animate-spin-knob2 {
-    animation: spin2 1s linear infinite, knob2 1s ease-out forwards;
+    animation:
+      spin2 1s linear infinite,
+      knob2 1s ease-out forwards;
   }
 
   @keyframes knob2 {
@@ -240,7 +242,9 @@
   }
 
   .animate-spin-knob1 {
-    animation: spin2 1s linear infinite, knob1 1s ease-out forwards;
+    animation:
+      spin2 1s linear infinite,
+      knob1 1s ease-out forwards;
   }
 
   @keyframes spin2 {
@@ -280,7 +284,7 @@
   }
 
   .effect-underline::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     bottom: 0;
@@ -290,7 +294,9 @@
     opacity: 0;
     transform: scaleX(0);
     transform-origin: left;
-    transition: opacity 0.35s, transform 0.35s;
+    transition:
+      opacity 0.35s,
+      transform 0.35s;
   }
 
   .effect-underline:hover::after {
@@ -304,12 +310,14 @@
 
   .effect-box::before,
   .effect-box::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     opacity: 0;
-    transition: opacity 0.35s, transform 0.35s;
+    transition:
+      opacity 0.35s,
+      transform 0.35s;
     pointer-events: none;
   }
 

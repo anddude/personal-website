@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from 'react';
 
 function Slider({ images = [] }) {
   const extendedImages =
@@ -31,13 +31,13 @@ function Slider({ images = [] }) {
         ref={sliderRef}
         onTransitionEnd={handleTransitionEnd}
         className={`flex ${
-          transitionEnabled ? "transition-transform duration-500" : ""
+          transitionEnabled ? 'transition-transform duration-500' : ''
         }`}
         style={{ transform: `translateX(-${slideIndex * (100 / 3)}%)` }}
       >
         {extendedImages.map((img, index) => {
-          const src = typeof img === "object" ? img.src : img;
-          const title = typeof img === "object" ? img.title : "";
+          const src = typeof img === 'object' ? img.src : img;
+          const title = typeof img === 'object' ? img.title : '';
           return (
             <div key={index} className="flex-none w-1/3 p-2">
               <figure className="flex flex-col items-center">

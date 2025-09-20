@@ -1,5 +1,5 @@
-import WG from "../assets/images/woodgrain.png";
-import { useState } from "react";
+import WG from '../assets/images/woodgrain.png';
+import { useState } from 'react';
 
 function Footer() {
   const [hoverCalendly, setHoverCalendly] = useState(false);
@@ -38,8 +38,8 @@ function Footer() {
               className={`absolute top-0 left-0 w-full h-full transition-all duration-700 ease-in-out 
       ${
         hoverCalendly
-          ? "opacity-0 rotate-[360deg] scale-75"
-          : "opacity-100 rotate-0 scale-100"
+          ? 'opacity-0 rotate-[360deg] scale-75'
+          : 'opacity-100 rotate-0 scale-100'
       }`}
             >
               <path d="M11 14h1v4" />
@@ -61,8 +61,8 @@ function Footer() {
               className={`absolute top-0 left-0 w-full h-full transition-all duration-700 ease-in-out 
       ${
         hoverCalendly
-          ? "opacity-100 rotate-0 scale-100"
-          : "opacity-0 -rotate-[360deg] scale-75"
+          ? 'opacity-100 rotate-0 scale-100'
+          : 'opacity-0 -rotate-[360deg] scale-75'
       }`}
             >
               <path d="M10 2v2" />
