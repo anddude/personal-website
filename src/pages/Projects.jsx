@@ -3,6 +3,7 @@ import Slider from '../components/Slider';
 import BroccoliPong from '../assets/images/Broccoli-Pong.png';
 import Decode from '../assets/images/decode.png';
 import Personal from '../assets/images/personalWebsite.png';
+import Qts from '../assets/images/qts.png';
 
 import bootstrap from '../assets/images/bootstrap.svg';
 import css from '../assets/images/css.svg';
@@ -122,6 +123,50 @@ export default function Projects() {
                 <button className="bg-neonGreen/80 rounded-sm border-2 border-smoke hover hover:bg-neonGreen hover:border-glass card-hover">
                   <a
                     href="https://github.com/anddude/personal-website"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-center text-twilight font-space"
+                  >
+                    GitHub
+                  </a>
+                </button>
+              </div>
+            </div>
+
+            {/* QTS Guide Website card div */}
+            <div className="bg-twilight text-glass border rounded-sm shadow-md hover:shadow-smoke p-6 card-hover">
+              <img
+                src={Qts}
+                alt="QTS Guide"
+                className="w-full h-45 mb-4 rounded-sm shadow-[0_0_5px_rgba(58,76,160,.6)] inner-shadow"
+              />
+
+              <h2 className="font-space text-neonGreen text-xl font-semibold">
+                The QTS Guide
+              </h2>
+
+              <p className="font-space text-xs md:text-sm mt-1 md:mt-2">
+                QTS Guide is a playful, interactive city and house guide that
+                organizes NYC recommendations, house essentials, and insider
+                tips — all powered by dynamic JSON data. Current
+                work-in-progress with password-protected content and dropdown
+                nav coming soon!
+              </p>
+
+              <div className="font-space grid grid-cols-2 gap-4 place-content-center text-sunset mt-6 text-center">
+                {/* <button className="bg-neonGreen/80 rounded-sm border-2 border-smoke hover hover:bg-neonGreen hover:border-glass card-hover">
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-center text-twilight font-space"
+                  >
+                    Live Site
+                  </a>
+                </button> */}
+                <button className="bg-neonGreen/80 rounded-sm border-2 border-smoke hover hover:bg-neonGreen hover:border-glass card-hover">
+                  <a
+                    href="https://github.com/anddude/qts"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-center text-twilight font-space"
